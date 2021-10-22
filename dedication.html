@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="src/modal.js" defer></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+          <li><a href="home.html">Strona główna</a></li>
+          <li><a href="">Galeria</a></li>
+          <li><a href="offert.html">Oferta</a></li>
+          <li> <a href="dedication.html">Zamów dedykację</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+  </nav>
+    <div class="column">
+          <h2>Chcesz komuś podarować utwór?</h2>
+    <h3 class="dedication-title">
+      U mnie masz ku temu okazję, podaj piosenkę i treść dedykacji a ja zagram
+      ją na przyjęciu
+    </h3>
+    <p class="sub-para">Każde 3 minuty piosenki to 10zł</p>
+    <p class="sub-para">W razie wątpliwości proszę o kontakt przez <a href="">formularz</a> lub na maila: mail@gm.pl</p>
+
+    <div class="column contact">
+        <input type="text" placeholder="tytuł piosenki" />
+        <textarea placeholder="treść dedykacji" cols="30" rows="10"></textarea>
+        <button>Wyślij</button>
+    </div>
+  </div>
+  <div class="modal hidden column">
+    <p>Wykonaj przelew na poniższe dane</p>
+    <table>
+      <tr>
+        <td>nr. konta: </td>
+        <td>9876 5432 345 678</td>
+      </tr>
+      <tr>
+        <td>Nazwa odbiorcy: </td>
+        <td>Masymilian Libera</td>
+      </tr>
+      <tr>
+        <td>Adres: </td>
+        <td>Warszawa, Lorem, ipsum dolor.</td>
+      </tr>
+    </table>
+    <p class="close-button">Zamknij</p>
+  </div>
+  </body>
+</html>
